@@ -104,7 +104,7 @@ $(function(){
 			e.preventDefault();
 			var $this = $(this),
 				
-				//You can edit alerts here
+				// alerts here
 				alerts = {
 				
 					success: 
