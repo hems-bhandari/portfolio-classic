@@ -94,6 +94,7 @@ $(function(){
 	function isJSON(val){
 		var str = val.replace(/\\./g, '@').replace(/"[^"\\\n\r]*"/g, '');
 		return (/^[,:{}\[\]0-9.\-+Eaeflnr-u \n\r\t]*$/).test(str);
+		//yes, regx for security reasons ;)
 	}
 	$('#contact-form').validator().on('submit', function (e) {
 		
