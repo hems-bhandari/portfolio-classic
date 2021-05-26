@@ -223,7 +223,7 @@ body.section-show .section.active{
 	height:26px;
 	width:26px;
 	line-height:26px;
-	vertical-align:middle;
+	vertical-align: middle;
 	-webkit-transform:rotate(45deg);
 	-moz-transform:rotate(45deg);
 	-ms-transform:rotate(45deg);
@@ -1612,7 +1612,7 @@ body .symp-btn{
 	height:inherit;
 	width:inherit;
 	line-height:inherit;
-	vertical-align:middle;
+	vertical-align: middle;
 	-webkit-transform:rotate(-45deg);
 	-moz-transform:rotate(-45deg);
 	-ms-transform:rotate(-45deg);
